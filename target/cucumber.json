@@ -3,7 +3,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-12-22T04:51:26.793Z",
+        "start_timestamp": "2021-12-22T05:10:58.252Z",
         "line": 4,
         "name": "Log into EFT as a user",
         "description": "",
@@ -13,15 +13,50 @@
         "steps": [
           {
             "result": {
-              "duration": 8367000000,
+              "duration": 6906000000,
               "status": "passed"
             },
             "line": 6,
-            "name": "User is in MyStore login page",
+            "name": "User is in MyStore main page",
             "match": {
-              "location": "com.ets.step_definitions.yourLagaMainPage.userIsInMyStoreLoginPage()"
+              "location": "com.ets.step_definitions.yourLagaMainPage.user_is_in_my_store_main_page()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2650000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User search a product from the input box and clicks on search button",
+            "match": {
+              "location": "com.ets.step_definitions.yourLagaMainPage.user_search_a_product_from_the_input_box_and_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user selects a size and a color, add it to the chard",
+            "match": {
+              "location": "com.ets.step_definitions.yourLagaMainPage.user_selects_a_size_and_a_color_add_it_to_the_chard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to see item is visible in the cart",
+            "match": {
+              "location": "com.ets.step_definitions.yourLagaMainPage.user_should_be_able_to_see_item_is_visible_in_the_cart()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -35,7 +70,7 @@
     "description": "",
     "id": "eft-login",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/com/features/1EFT_Login.feature",
+    "uri": "file:src/test/resources/com/features/mainLogin.feature",
     "tags": [
       {
         "name": "@smokeTest",

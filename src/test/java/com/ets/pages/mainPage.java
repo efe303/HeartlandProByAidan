@@ -11,11 +11,11 @@ public class mainPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id = "ctl00_HyperLink1")
-    public WebElement MainPageHomeButton;
-
-    @FindBy(css = "")
+    @FindBy(id = "search_query_top")
     public WebElement MainPageSearchBox;
+
+    @FindBy(name = "submit_search")
+    public WebElement MainPageSearchButton;
 
 
 

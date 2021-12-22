@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.36">
-<testcase classname="EFT Login" name="Log into EFT as a user" time="8.566">
-<system-out><![CDATA[Given User is in MyStore login page.........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.828">
+<testcase classname="EFT Login" name="Log into EFT as a user" time="9.688">
+<system-out><![CDATA[Given User is in MyStore main page..........................................passed
+And User search a product from the input box and clicks on search button....passed
+And user selects a size and a color, add it to the chard....................passed
+Then User should be able to see item is visible in the cart.................passed
 ]]></system-out>
 </testcase>
 </testsuite>
