@@ -35,7 +35,8 @@ public class mainPage {
     @FindBy(css = "div.layer_cart_product.col-xs-12.col-md-6 > h2")
     public WebElement itemVisibleInTheCart;
 
-
+    @FindBy(xpath = "//span[contains(text(),'Add to cart')]")
+    public WebElement addtocart;
 
 
 

@@ -9,6 +9,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -47,7 +48,6 @@ public class yourLagaMainPage {
         jse.executeScript("window.scrollBy(0,200)");
         mainPageLocator.selectFirstImage.click();
         driver.switchTo().frame(0);
-        System.out.println(driver.findElement(By.id("our_price_display")).getText());
         mainPageLocator.SelectQuantity.click();
         mainPageLocator.selectSize.click();
         mainPageLocator.selectColor.click();
@@ -58,9 +58,7 @@ public class yourLagaMainPage {
     @Then("User should be able to see item is visible in the cart")
     public void user_should_be_able_to_see_item_is_visible_in_the_cart() {
 
-        driver.switchTo().defaultContent();
-        driver.switchTo().frame(1);
-        Assert.assertEquals("Product successfully added to your shopping cart",mainPageLocator.itemVisibleInTheCart.getText());
+        Assert.assertEquals("Product successfully added to your shopping cart",mainPageLocator.addtocart.getText());
 
     }
 

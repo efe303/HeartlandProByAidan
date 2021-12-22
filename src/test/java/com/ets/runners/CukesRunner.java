@@ -24,5 +24,5 @@ import org.junit.runner.RunWith;
 
 )
 
-public class CukesRunnerEFT {
+public class CukesRunner {
 }
