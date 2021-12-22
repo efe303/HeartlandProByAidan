@@ -16,13 +16,9 @@ import java.util.concurrent.TimeUnit;
 public class Hooks {
 
 
-    MethodsUtil methodsUtil=new MethodsUtil();
-    public WebDriver driver= Driver.getDriver();
 
     @Before
     public void setUp() {
-        // we put a logic that should apply to every scenario
-        //Driver.getDriver().manage().deleteAllCookies();
 
         Driver.getDriver().manage().window().maximize();
         Driver.getDriver().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
