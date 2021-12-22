@@ -1,0 +1,50 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-22T04:51:26.793Z",
+        "line": 4,
+        "name": "Log into EFT as a user",
+        "description": "",
+        "id": "eft-login;log-into-eft-as-a-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8367000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in MyStore login page",
+            "match": {
+              "location": "com.ets.step_definitions.yourLagaMainPage.userIsInMyStoreLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "EFT Login",
+    "description": "",
+    "id": "eft-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/features/1EFT_Login.feature",
+    "tags": [
+      {
+        "name": "@smokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

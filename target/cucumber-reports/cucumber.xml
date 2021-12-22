@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.36">
+<testcase classname="EFT Login" name="Log into EFT as a user" time="8.566">
+<system-out><![CDATA[Given User is in MyStore login page.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
