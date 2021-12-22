@@ -6,8 +6,10 @@ import com.ets.utilities.*;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
@@ -19,7 +21,7 @@ public class yourLagaMainPage {
     public WebDriver driver= Driver.getDriver();
     WebDriverWait wait=new WebDriverWait(driver, 15);
     mainPage mainPageLocator=new mainPage();
-
+    JavascriptExecutor jse=(JavascriptExecutor)driver;
     @Given("User is in MyStore login page")
     public void userIsInMyStoreLoginPage() {
 
@@ -37,15 +39,28 @@ public class yourLagaMainPage {
     @Given("User search a product from the input box and clicks on search button")
     public void user_search_a_product_from_the_input_box_and_clicks_on_search_button() {
 
-        mainPageLocator.MainPageSearchBox.sendKeys("Printed Chiffon Dress");
+        mainPageLocator.MainPageSearchBox.sendKeys("blouse");
         mainPageLocator.MainPageSearchButton.click();
     }
     @Given("user selects a size and a color, add it to the chard")
     public void user_selects_a_size_and_a_color_add_it_to_the_chard() {
+        jse.executeScript("window.scrollBy(0,200)");
+        mainPageLocator.selectFirstImage.click();
+        driver.switchTo().frame(0);
+        System.out.println(driver.findElement(By.id("our_price_display")).getText());
+        mainPageLocator.SelectQuantity.click();
+        mainPageLocator.selectSize.click();
+        mainPageLocator.selectColor.click();
+        mainPageLocator.addToCart.click();
+
 
     }
     @Then("User should be able to see item is visible in the cart")
     public void user_should_be_able_to_see_item_is_visible_in_the_cart() {
+
+        driver.switchTo().defaultContent();
+        driver.switchTo().frame(1);
+        Assert.assertEquals("Product successfully added to your shopping cart",mainPageLocator.itemVisibleInTheCart.getText());
 
     }
 

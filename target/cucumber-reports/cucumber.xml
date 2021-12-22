@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.828">
-<testcase classname="EFT Login" name="Log into EFT as a user" time="9.688">
-<system-out><![CDATA[Given User is in MyStore main page..........................................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="15.748">
+<testcase classname="EFT Login" name="Log into EFT as a user" time="13.716">
+<failure message="no such frame&#10;  (Session info: chrome=96.0.4664.110)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-B83UI0B', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MEHMET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e91d62613d5f783a9befd4035d9c4bd5" type="org.openqa.selenium.NoSuchFrameException"><![CDATA[Given User is in MyStore main page..........................................passed
 And User search a product from the input box and clicks on search button....passed
 And user selects a size and a color, add it to the chard....................passed
-Then User should be able to see item is visible in the cart.................passed
-]]></system-out>
+Then User should be able to see item is visible in the cart.................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchFrameException: no such frame
+  (Session info: chrome=96.0.4664.110)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-B83UI0B', ip: '192.168.0.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\MEHMET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e91d62613d5f783a9befd4035d9c4bd5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:872)
+	at com.ets.step_definitions.yourLagaMainPage.user_should_be_able_to_see_item_is_visible_in_the_cart(yourLagaMainPage.java:62)
+	at ✽.User should be able to see item is visible in the cart(file:///C:/Users/Mehmet%20Efe/Desktop/HeartlandProByAidan/src/test/resources/com/features/mainLogin.feature:9)
+]]></failure>
 </testcase>
 </testsuite>

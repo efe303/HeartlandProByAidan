@@ -5,12 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ets/pages/mainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ets/pages/mainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ets/step_definitions/yourLagaMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ets/step_definitions/yourLagaMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/features/mainLogin.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/features/mainLogin.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/report/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ets/pages/mainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ets/pages/mainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/ets/step_definitions/yourLagaMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ets/step_definitions/yourLagaMainPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/features/1EFT_Login.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,21 +70,21 @@
       <screen x="0" y="0" width="1536" height="714" />
     </state>
     <state x="548" y="112" key="FileChooserDialogImpl/0.0.1536.714@0.0.1536.714" timestamp="1640149311069" />
-    <state width="1493" height="18" key="GridCell.Tab.0.bottom" timestamp="1640149851440">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1640156766125">
       <screen x="0" y="0" width="1536" height="714" />
     </state>
-    <state width="1493" height="18" key="GridCell.Tab.0.bottom/0.0.1536.714@0.0.1536.714" timestamp="1640149851440" />
-    <state width="1493" height="18" key="GridCell.Tab.0.center" timestamp="1640149851440">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.714@0.0.1536.714" timestamp="1640156766125" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1640156766125">
       <screen x="0" y="0" width="1536" height="714" />
     </state>
-    <state width="1493" height="18" key="GridCell.Tab.0.center/0.0.1536.714@0.0.1536.714" timestamp="1640149851440" />
-    <state width="1493" height="18" key="GridCell.Tab.0.left" timestamp="1640149851440">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.714@0.0.1536.714" timestamp="1640156766125" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1640156766125">
       <screen x="0" y="0" width="1536" height="714" />
     </state>
-    <state width="1493" height="18" key="GridCell.Tab.0.left/0.0.1536.714@0.0.1536.714" timestamp="1640149851440" />
-    <state width="1493" height="18" key="GridCell.Tab.0.right" timestamp="1640149851440">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.714@0.0.1536.714" timestamp="1640156766125" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1640156766125">
       <screen x="0" y="0" width="1536" height="714" />
     </state>
-    <state width="1493" height="18" key="GridCell.Tab.0.right/0.0.1536.714@0.0.1536.714" timestamp="1640149851440" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.714@0.0.1536.714" timestamp="1640156766125" />
   </component>
 </project>
